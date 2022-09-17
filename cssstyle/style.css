@@ -1,0 +1,121 @@
+  /* ......element styles....... */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: brown;
+
+}
+nav ul li{
+    margin: 10px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(233, 216, 216);
+    font-weight: bold;
+    margin:20px 10px;
+}
+nav ul li a:hover{
+     color: red; 
+    transition: .5s;
+}
+
+h1{
+    color: aquamarine;
+    font-size: 50px;
+    letter-spacing: 5px;
+
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: floralwhite;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+  
+}
+footer{
+    margin-top: 250px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+i{
+    padding: 20px;
+  
+
+}
+/* ...............class style................. */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://media.istockphoto.com/photos/people-walking-in-shopping-picture-id155440038?b=1&k=20&m=155440038&s=170667a&w=0&h=mCyIpLGNEnxyTjsgFLACIjeah0E8B0a1JNRLM0uiIoM=);
+    background-position: top;
+    background-size: cover;
+}
+
+.logo{
+    color: rgb(37, 0, 0);
+    font-size: 29px;
+
+}
+.context{
+    color: black;
+    text-align: center;
+    margin: 60px;
+}
+
+.btn{
+    padding: 12px 20px;
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 40px;
+}
+.btn:hover{
+     cursor: pointer;
+     transition: .5s;
+     background-color: transparent;
+     font-size: 15px;
+     color: brown;
+
+}
+
+
+.facebook{
+    padding: 0px 10px;
+}
+.facebook:hover{
+    transition: .5;
+    background-color:transparent;
+    cursor: pointer;
+    color:aqua;
+}
+.youtube{
+    padding: 0px 10px;
+}
+.youtube:hover{
+    transition: .5;
+    background-color:transparent;
+    cursor: pointer;
+    color:aqua;
+}
+.github{
+    padding: 0px 10px;
+}
+.github:hover{
+    transition: .5;
+    background-color:transparent;
+    cursor: pointer;
+    color:aqua;
+}
